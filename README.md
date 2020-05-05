@@ -51,7 +51,7 @@ Fim. <g-emoji class="g-emoji" alias="blush" fallback-src="https://github.githuba
 
 ### Resultado
 
-![Resultado](doc/final.gif)
+![Resultado](doc/website-2.gif)
 
 <hr>
 <g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji>  Desenvolvido por Mércia Keila
