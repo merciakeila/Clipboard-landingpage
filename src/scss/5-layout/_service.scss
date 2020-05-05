@@ -1,0 +1,24 @@
+.service {
+    .container {
+        text-align: center;
+    display: flex;
+    justify-content: center;
+    max-width: 724px;  
+    }
+    img {
+        margin-top: 50px;
+    }
+    p {
+padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 320px) {
+    .service {
+    img {
+        margin-top: 50px;
+        max-width: 345px;
+        padding: 0 10px;
+    }
+}
+}

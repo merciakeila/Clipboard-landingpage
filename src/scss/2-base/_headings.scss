@@ -1,0 +1,76 @@
+
+/*### Headers ###*/
+
+body {
+    @include font-family-bai;
+}
+
+h1 {
+   @include header (2.75);    
+}
+
+h2 {
+   @include header (2.12); 
+}
+
+h3 {
+    @include header (1.50); 
+}
+
+
+/*### Paragraph ###*/
+
+p {
+    @include p (1.36); 
+}
+
+
+/*### Grids ###*/
+
+.container {
+    @include container; 
+}
+
+.fluid {
+    @include container-fluid; 
+}
+
+section {
+    @include space-section-desktop;
+}
+
+
+
+
+@media only screen and (max-width: 1024px) and (min-width: 320px) {
+
+/*### Headers ###*/
+
+h1, h2 {
+   @include header (1.90);    
+}
+
+h3 {
+    @include header (1.40); 
+}
+
+
+/*### Paragraph ###*/
+
+p {
+    @include p (1.20); 
+}
+
+
+/*### Grids ###*/
+
+section {
+    @include space-section-mobile;
+}
+
+.btn {
+    width: 100%;
+    padding: 20px 33px;
+}
+
+} 

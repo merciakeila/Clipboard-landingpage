@@ -1,0 +1,50 @@
+.about {
+    .container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    max-width: 724px;  
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0;
+}
+
+}
+.about {
+    img {
+    margin-left: -40px;
+}
+ul {
+padding: 0 40px;
+flex: 1 1 300px;
+padding: 0 60px;
+}
+li {
+    margin: 40px 0;
+}
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 320px) {
+    .about {
+        padding: 0 20px;
+        img {
+            max-width: 310px;
+            padding: 0 10px;
+            margin: 0;
+        }
+        
+        ul{
+            padding: 0 10px;
+        }
+        ul li {
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+

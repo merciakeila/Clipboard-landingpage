@@ -1,0 +1,32 @@
+// Buttons
+.btn {
+padding: 16px 40px;
+color: $white;
+border-radius: 50px;
+font-size: 1.25em;
+font-weight: 400;
+display: inline;
+margin: 5px 10px;
+&.-lighter{
+background-color: $blue-middle;
+&:hover {
+background-color: $blue-lighter;
+@include shadow-lighter;
+transition: .5s; 
+}
+}
+&.-darker {
+background-color: $blue-darker;
+&:hover {
+@include shadow-darker;  
+transition: .5s;  
+}
+}
+}
+
+.btn-hero, .btn-available-app {
+margin: 20px auto;
+flex-wrap: wrap;
+justify-content: center;
+display: flex;
+}

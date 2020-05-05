@@ -1,0 +1,119 @@
+/*### Typography ###*/
+@mixin font-family-bai {
+font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/*### Headers ###*/
+
+// H1
+@mixin header ($size) {
+color: $grey-darker;
+font-weight: 600;
+@if $size == 2.75 {
+font-size: 2.75em;
+line-height: 2.43em;
+}
+// H1 & H2 Mobile
+@else if $size == 1.90 {
+font-size: 1.90em;
+line-height: 1.30em;
+}
+
+// H2
+@else if $size == 2.12 {
+font-size: 2.12em;
+line-height: 2.50em;
+}
+// H2 Mobile (alternative)
+@else if $size == 1.31 {
+font-size: 1.31em;
+line-height: 1.18em;
+}
+
+// H3
+@else if $size == 1.50 {
+font-size: 1.50em;
+line-height: 1.93em;
+}
+// H3 Mobile
+@else if  $size == 1.12 {
+font-size: 1.40em;
+line-height: 1.31em;    
+}
+}
+
+/*### Paragraph ###*/
+
+@mixin p ($size) {
+color: $grey-lighter;
+font-weight: 400;
+// P - Description
+@if  $size == 1.36 {
+font-size: 1.36em;
+line-height: 1.95em; 
+}
+// P Mobile
+@if $size == 1.20 {
+  margin: 20px 0;
+  font-size: 1.20em;
+  line-height: 1.50em;  
+}
+
+//P - services & features
+@if $size == 1.00 {
+font-size: 1.00em;
+line-height: 2.00em;
+}
+}
+
+/*### Links ###*/
+@mixin link  {
+font-size: 1.20em;
+margin-top: 20px;
+} 
+
+/*### Grids ###*/
+
+@mixin container-fluid {
+flex-wrap: wrap;
+margin: 0 auto;
+width: 1440px;
+}
+
+@mixin container {
+flex-wrap: wrap;
+margin-left: auto;
+margin-right: auto;
+max-width: 980px;
+}
+
+@mixin space-section-desktop {
+margin: 90px auto;
+}
+
+@mixin space-section-mobile {
+margin: 80px auto;
+}
+
+
+/*### Box Shadow ###*/
+
+@mixin shadow-lighter {
+-webkit-box-shadow: -8px 15px 40px -16px rgba(35,189,165,0.33);
+-moz-box-shadow: -8px 15px 40px -16px rgba(35,189,165,0.33);
+box-shadow: -8px 15px 40px -16px rgba(35,189,165,0.33);
+}
+
+@mixin shadow-darker {
+-webkit-box-shadow: -8px 15px 40px -16px rgba(136,150,255,1);
+-moz-box-shadow: -8px 15px 40px -16px rgba(136,150,255,1);
+box-shadow: -8px 15px 40px -16px rgba(136,150,255,1);    
+} 
+
+
+
+
+
+
+
+

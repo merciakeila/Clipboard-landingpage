@@ -1,0 +1,25 @@
+.features {
+    display: flex;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.features-main {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.features-content {
+flex: 1 1 300px;
+margin: 10px;
+p {
+    @include p(1.00);
+}
+img {
+    margin-bottom: 22px;
+    width: 13%;
+}
+}
+
