@@ -3,8 +3,9 @@ flex: 1 1 200px;
 display: flex;
 justify-content: flex-end;
 align-items: center;
-a {
+    a {
         color: $grey-darker;
+        @include networks;
     }
     a:hover{
         color: $blue-middle;

@@ -72,6 +72,12 @@ font-size: 1.20em;
 margin-top: 20px;
 } 
 
+/*### fontawesome ###*/
+@mixin networks  {
+    padding: 0 10px;
+    font-size: 1.20em;
+} 
+
 /*### Grids ###*/
 
 @mixin container-fluid {
