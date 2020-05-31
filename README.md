@@ -1,11 +1,8 @@
 # Clipboard landingpage 👋<br><br>
-<b>Nível:</b> Júnior
-</br>
-</br>
-## <b>Design:</b>
 
-[Desktop](doc/design/desktop-design.jpg)<br>
-[Mobile](doc/design/mobile-design.jpg)
+#frontendmentorchallenges foi criado  através de projetos reais com o objetivo de melhorar nossas habilidades de desenvolvimento compartilhando layouts como desafios do mundo real enquanto trabalha com projetos profissionais.
+
+O Layout Clipboard Ladingpage, escolhi com o objetivo de aplicar as boas práticas de desenvolvimentoe  implentar novos recursos de aprimoramento no desenvolvimento front-end.
 
 ### <b>Requerimento</b>
 
@@ -48,7 +45,6 @@ Fim. <g-emoji class="g-emoji" alias="blush" fallback-src="https://github.githuba
 * JS
   * [Webpack](https://webpack.js.org/)
   
-
 ### Resultado
 
 ![Resultado](doc/website-2.gif)
